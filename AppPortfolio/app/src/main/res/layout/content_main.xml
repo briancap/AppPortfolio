@@ -21,11 +21,38 @@
         android:layout_height="50dp"
         android:gravity="center_horizontal"
         android:text="@string/appPortfolioTitle"
+        android:layout_marginBottom="20dp"
          />
     
     <Button
         android:id="@+id/spotifyStreamer"
-        android:text="Spotify Streamer"
+        android:text="@string/spotifyStreamer"
+        style="@style/AppLaunchingButtons"/>
+
+    <Button
+        android:id="@+id/scoresApp"
+        android:text="@string/scoresApp"
+        style="@style/AppLaunchingButtons"/>
+
+    <Button
+        android:id="@+id/libraryApp"
+        android:text="@string/libraryApp"
+        style="@style/AppLaunchingButtons"/>
+
+    <Button
+        android:id="@+id/buildItBigger"
+        android:text="@string/buildItBigger"
+        style="@style/AppLaunchingButtons"/>
+
+    <Button
+        android:id="@+id/xyzReadereader"
+        android:text="@string/xyzReader"
+        style="@style/AppLaunchingButtons"/>
+
+    <Button
+        android:id="@+id/capstoneApp"
+        android:text="@string/capstoneApp"
+        android:background="#8bc34a"
         style="@style/AppLaunchingButtons"/>
 
 </LinearLayout>
