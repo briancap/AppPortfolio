@@ -11,6 +11,15 @@ import android.view.MenuItem;
 import android.widget.Button;
 import android.widget.Toast;
 
+/***==================================================================================
+ *Author: Brian Cap
+ * Dev Start: 4/1/2016
+ * Dev Comp: 4/2/2016
+
+ *References:
+ *  Toasts: http://developer.android.com/guide/topics/ui/notifiers/toasts.html
+ *  Coordinator Layout: http://developer.android.com/reference/android/support/design/widget/CoordinatorLayout.html
+======================================================================================***/
 public class MainActivity extends AppCompatActivity {
 
     Button spotifyStreamer;
