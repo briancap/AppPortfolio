@@ -8,8 +8,17 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Button;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
+
+    Button spotifyStreamer;
+    Button scoresApp;
+    Button libraryApp;
+    Button buildItBigger;
+    Button xyzReader;
+    Button capstone;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,6 +26,54 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
+        spotifyStreamer = (Button) findViewById(R.id.spotifyStreamer);
+        spotifyStreamer.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(MainActivity.this, R.string.spotifyStreamerMessage, Toast.LENGTH_SHORT).show();
+            }
+        });
+
+        scoresApp = (Button) findViewById(R.id.scoresApp);
+        scoresApp.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(MainActivity.this, R.string.scoresAppMessage, Toast.LENGTH_SHORT).show();;
+            }
+        });
+
+        libraryApp = (Button) findViewById(R.id.libraryApp);
+        libraryApp.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(MainActivity.this, R.string.libraryAppMessage, Toast.LENGTH_SHORT).show();
+            }
+        });
+
+        buildItBigger = (Button) findViewById(R.id.buildItBigger);
+        buildItBigger.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(MainActivity.this, R.string.buildItBiggerMessage, Toast.LENGTH_SHORT).show();
+            }
+        });
+
+        xyzReader = (Button) findViewById(R.id.xyzReader);
+        xyzReader.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(MainActivity.this, R.string.xyzReaderMessage, Toast.LENGTH_SHORT).show();
+            }
+        });
+
+        capstone = (Button) findViewById(R.id.capstoneApp);
+        capstone.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(MainActivity.this, R.string.capstoneAppMessage, Toast.LENGTH_SHORT).show();
+            }
+        });
 
     }
 

@@ -45,7 +45,7 @@
         style="@style/AppLaunchingButtons"/>
 
     <Button
-        android:id="@+id/xyzReadereader"
+        android:id="@+id/xyzReader"
         android:text="@string/xyzReader"
         style="@style/AppLaunchingButtons"/>
 
