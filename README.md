@@ -1,2 +1,2 @@
 # AppPortfolio
-Main app made for Udacity nanodegree
+Main app for Udacity nanodegree
